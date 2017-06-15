@@ -1,0 +1,193 @@
+/*** BASE STYLES ****/
+
+body {
+    font-family: 'Alice', serif;
+}
+
+#about{
+	height: 600px;
+}
+
+#work {
+    height: 650px;
+}
+
+#contact {
+    height: 300px;
+}
+
+/*GRID*/
+
+.full-width{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width{
+	width: 600px;
+	float: left;
+}
+
+.third-width{
+	width: 400px;
+	float: left
+}
+
+/***HEADER***/
+
+header {
+	height: 800px;
+	background: URL(cover-picture.jpg);
+	background-size: cover;
+}
+
+header h1 { 
+    font-family: 'Sacramento', cursive;
+    font-size: 45px;
+    color: #2b2b2b;
+    padding: 50px 0;
+}
+
+/***Skillcrush gave me this because too complicated for this stage ***/
+
+nav {
+    float: right; 
+    padding: 75px 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px; 
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Alice', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0;
+}
+header h2 span {
+    color: #2b2b2b;
+}
+
+/***ABOUT***/
+
+#about .full-width {
+	padding: 40px 0;
+}
+
+#about h3 {
+	font-family: 'Sacramento', cursive;
+	font-size: 36px;
+}
+
+#about img {
+    height: 100px;
+    width:100px;
+}
+
+#about p {
+	font-size: 21px;
+	color: #7f7f7f;
+	line-height: 40px;
+	padding-right: 50px;
+}
+
+/***WORK***/
+
+
+
+#work h3 {
+    font-family: 'Sacramento', cursive;
+    font-size: 36px;
+    text-align: left;
+}
+
+#work {
+	background: #807C6A;
+	text-align: center;
+}
+
+#work .full-width {
+	padding: 70px 0;
+}
+
+#work img {
+	padding-bottom: 30px;
+}
+
+#work h4 {
+	font-size: 24px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0 auto;
+    width: 180px;
+}
+
+#work p {
+	font-family: 'Alice', serif;
+	font-size: 18px;
+	line-height: 30px;
+	color: #2b2b2b;
+	padding: 0 35px;
+}
+
+/***CONTACT***/
+
+#contact {
+    margin-bottom: 0;
+    overflow: hidden;
+    background: #EBEBEB;
+}
+
+
+#contact {
+	background: #EBEBEB;
+}
+
+#contact .full-width {
+	padding: 10px 0;
+}
+
+#contact h4 {
+    font-family: 'Sacramento', cursive;
+    font-size: 36px;
+}
+
+#contact p {
+    line-height: 10px;
+    margin-left: 400px;    
+    font-weight: bold;
+}
+
+#contact a {
+    text-decoration: none;
+    color: black;
+}
+
+#contact-info {
+    padding: 120px 0px;
+}
+
+
+#contact ul {
+    list-style: none;
+    padding-left: 100px;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
+
