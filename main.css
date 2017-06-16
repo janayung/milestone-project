@@ -96,7 +96,11 @@ header h2 span {
 
 #about p {
 	font-size: 21px;
+<<<<<<< HEAD:img/main.css
 	color: #7f7f7f;
+=======
+	color: blue;
+>>>>>>> experiments:main.css
 	line-height: 40px;
 	padding-right: 50px;
 }
