@@ -37,7 +37,7 @@ body {
 
 header {
 	height: 800px;
-	background: URL(cover-picture.jpg);
+	background: URL(../img/cover-picture.jpg);
 	background-size: cover;
 }
 
@@ -48,7 +48,7 @@ header h1 {
     padding: 50px 0;
 }
 
-/***Skillcrush gave me this because too complicated for this stage ***/
+/***Skillcrush gave me this ***/
 
 nav {
     float: right; 
@@ -96,17 +96,12 @@ header h2 span {
 
 #about p {
 	font-size: 21px;
-<<<<<<< HEAD:img/main.css
 	color: #7f7f7f;
-=======
-	color: blue;
->>>>>>> experiments:main.css
 	line-height: 40px;
 	padding-right: 50px;
 }
 
 /***WORK***/
-
 
 
 #work h3 {
